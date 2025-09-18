@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* 
+    em HTML id é = # em CSS
+    em HTML class é = . em CSS
+
+*/ 
+
+body {
+    background-color: rgb(43, 122, 226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#titulo{
+    text-align: center;
+    background-color: rgb(255, 166, 0);
+    color: white;
+}
+
+h1 {
+    color: rgb(228, 194, 130);
+}
+h1#CSS{
+    color: rgb(162, 235, 235);
+}
+h2 {
+    color: rgb(44, 85, 85);
+}
+h3 {
+    color: rgb(83, 187, 152);
+    font-size: 15px;
+}
+p#HTMLCSS{
+    color: maroon;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.primaria {
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.segundaria {
+    color: yellow;
+    font-weight: bolder;
+}
+.temporaria {
+    color: green;
+    font-weight: bold;
+}
+.destaque {
+    background-color: rgb(161, 161, 221);
+}

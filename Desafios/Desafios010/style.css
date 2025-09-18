@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body {
+   margin: 0px;
+   background-color:#84E1AD;
+   margin: auto;
+}
+a.externo::after{
+    content: '\00A0\1F517';
+
+}
+header > p { 
+    text-align: center;
+    padding-top: 5px;
+} 
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #3DDC83, #175032);
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.568);
+    padding-top: 20px;
+    margin: auto;
+}
+header > h1 {
+    font-size: 40px;
+
+}
+header > p {
+    max-width: 500px;
+    margin: auto;
+    color: white;
+    margin-bottom: 30px;
+}
+
+nav {
+    text-align: left;
+    padding-top:  15px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+nav > a {
+        margin: auto;
+        color: #489b6c;
+        text-decoration: none;
+        margin-right: 10px;
+        font-weight: bold;
+        padding: 9px;
+        border-radius: 5px;
+        
+}
+nav > a:hover {
+    background-color: #39a76a;
+    color: #125331;
+    transition-duration: 0.3s;
+    text-shadow: none;
+
+}
+main {
+    background-color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 1px;
+    border-radius: 0px 0px 5px 5px;
+    
+}
+main h1 {
+    font-family: 'droid';
+    padding-left: 15px;
+    font-size: 30px;
+    color: #0d301d;
+}
+
+main > section > h2 {
+    font-family: 'droid';
+    padding-left: 15px;
+    background-image: linear-gradient(to right, #39a76a, transparent);
+    color: #155a34;
+}
+strong {
+    color: #125331;
+    font-weight: bold;
+}
+main a {
+    color: #175032;
+    background-color: #39a76a;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 2px 6px;
+}
+main a:hover {
+    text-decoration: underline;
+    padding: 3px 7px;
+    transition-duration: 0.5s;
+}
+
+p {
+    text-indent: 30px; 
+    padding-left: 10px;
+    text-align: justify;
+    padding-right: 20px;
+    font-size: 18px;
+    margin-bottom: 1.5em;
+    line-height: 1.8em;
+    
+}
+
+div#video {
+    background-color: #13502f;
+    padding: 30px 10px;
+    padding-bottom: 53.2%;
+    position: relative;
+} 
+div#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+div.droids {
+    min-width: 350px;
+    max-width: 800px;
+    margin: auto;
+}
+div.drods {
+    max-width: 350px;
+    margin: auto;
+}
+
+section#extra > div {
+    background-color: #3DDC83; /* Verde vibrante para a barra superior */
+    color: white;
+    padding: 15px 20px; /* Preenchimento interno para o texto do h3 */
+    margin-top: -20px;    /* Ajusta para cima para cobrir o padding do main */
+    margin-left: -20px;   /* Ajusta para esquerda para cobrir o padding do main */
+    margin-right: -20px;  /* Ajusta para direita para cobrir o padding do main */
+    margin-bottom: 0;     /* Garante que a barra superior cole no conteúdo abaixo */
+    border-radius: 0;     /* Remove o border-radius próprio, pois a section#extra terá */
+}
+
+section#extra > div > h3 {
+    margin: 0;            /* Remove margens padrão do h3 */
+    font-size: 1.5em;     /* Tamanho do título "Quer aprender mais?" */
+    text-align: left;     /* Alinha o texto à esquerda */
+}
+
+section#extra {
+    background-color:  #75b892; /* Fundo verde claro para a seção principal */
+    margin: 30px;        /* Espaço acima e abaixo da seção, e centraliza */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-radius: 8px;       
+    overflow: hidden;         
+    padding-top: 15px;      
+    padding-left: 20px;       
+    padding-right: 20px;     
+    padding-bottom: 0px;     
+
+}
+p#fim {
+    text-indent: 30px; 
+    text-align: justify;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: 1.5em;
+    margin-left: 10px;
+    font-size: 20px; 
+}
+
+p#rodape {
+    background-color: #054120;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    color: #3DDC83;
+    text-decoration: underline;
+}
+
+aside > ul {
+    list-style-type: '\1F5F8\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+/* aside > h3 {
+background-color: var(--cor4);
+color: white;
+padding: 10px;                      <--- ASSIM QUE ERA PRA EU TER FEITO PRA "ENCAIXAR" UM NO OUTRO
+margin: 10px 10px 0px -10px;
+border-radius: 10px 10px 0px 0px; 
+
+} */ 

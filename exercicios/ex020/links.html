@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* 
+            #   = id
+            .   = classe
+            :   = pseudo
+            ::  = pseudo-element
+            >   = clildren (o filho)
+        */
+ul:active
+        ul {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+             color: green;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: rgb(55, 0, 255);
+        }
+        a:active {
+            color: rgb(179, 5, 121);
+        }
+        .especial {
+            background-color: rgb(87, 81, 81);
+
+        }
+        .especial::before {
+            content: '--> ';
+        }
+        .especial::after {
+            content: ' <--';
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo Personalização de Links</h1>
+    <ul>
+        <li><a href="https://github.com/mizykkj" target="_blank">Repositorio Github</a></li>
+        <li><a href="https://central-de-jogos.netlify.app/" class="especial">Meu Site</a></li>
+        <li><a href="https://www.youtube.com/@Mtysn">Canal do Youtube</a></li>
+        
+    </ul>
+</body>
+</html>
